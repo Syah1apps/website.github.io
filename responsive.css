@@ -1,0 +1,117 @@
+/* untuk tablet */
+@media all and (max-width: 1000px) {
+    .wrapper {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+  
+    .main {
+      width: 80%;
+    }
+  
+    .header h1 {
+      font-size: 32px;
+    }
+  
+    .kolom h3 {
+      font-size: 20px;
+    }
+  
+    .atas {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .atas h4 {
+      width: 500px;
+    }
+  
+    .contents-item {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+  
+    .contents-item p {
+      padding: 0;
+      margin: auto;
+    }
+  
+    .contents-item img {
+      margin-left: 29px;
+    }
+  }
+  /* untuk handphone */
+  @media all and (max-width: 670px){
+      .wrapper {
+      width: 100%;
+      height: 25px;
+    }
+  
+    .main {
+      width: 100%;
+    }
+    
+    .header h1, h4 {
+      text-align: center;
+    }
+    .header img {
+      width: 400px;
+      height: 300px;
+      display: flex;
+    }
+  
+    .content h3 {
+      text-align: center;
+    }
+    .contents-item {
+      width: 100%;
+      margin-bottom: 50px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .contents-item img {
+      margin: auto;
+      width: 200px;
+      height: 200px;
+    }
+    
+    footer {
+      text-align: center;
+    }
+  
+    .header {
+      text-align: left;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .header h1 {
+      font-size: 24px;
+      line-height: 36px;
+      padding-top: 30px;
+      
+    }
+  
+    .header p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .atas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
